@@ -10,19 +10,22 @@
 
     <header><h1>¡Registrate!</h1></header>
     <main>
-        <form>
+        <form onsubmit="registrarUsuario(event)">
             <label>Nombre:
-                <input type="text" id="nombre">
+                <input type="text" id="nombre" required>
+            </label>
+             <label>Edad:
+                <input type="number" id="edad" required>
             </label>
             <label>Email:
-                <input type="email" id="email">
+                <input type="email" id="email" required>
             </label>
             <label>Contraseña:
-                <input type="password" id="contraseña">
+                <input type="password" id="contrasenia" required>
             </label>
             <label>
                 Confirmar contraseña:
-                <input type="password" id="confirmar-contraseña">
+                <input type="password" id="confirmar-contrasenia" required>
             </label>
             <button>Crear usuario</button>
         </form>

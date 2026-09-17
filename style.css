@@ -55,3 +55,10 @@ button:hover{
     background-color: crimson;
     color: white;
 }
+
+div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
